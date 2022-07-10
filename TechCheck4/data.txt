@@ -1,0 +1,32 @@
+[
+    {
+        name: "Parsnip",
+        img: "https://media.istockphoto.com/photos/parsnip-isolated-on-the-white-background-close-up-picture-id884855382?s=612x612",
+        likeCount: 0
+    },
+    {
+        name: "Carrot",
+        img: "https://media.istockphoto.com/photos/fresh-carrots-picture-id133483506?s=612x612",
+        likeCount: 0
+    },
+    {
+        name: "Potato",
+        img: "https://media.istockphoto.com/photos/potatoes-picture-id879133438?s=612x612",
+        likeCount: 0
+    },
+    {
+        name: "Squash",
+        img: "https://media.istockphoto.com/photos/butternut-squash-picture-id505198157?s=612x612",
+        likeCount: 0
+    },
+    {
+        name: "Pumpkin",
+        img: "https://media.istockphoto.com/photos/pumpkin-picture-id184279619?s=612x612",
+        likeCount: 0
+    },
+    {
+        name: "Peas",
+        img: "https://media.istockphoto.com/photos/green-peas-closeup-picture-id628151946?s=612x612",
+        likeCount: 0
+    }
+]

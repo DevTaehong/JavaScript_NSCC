@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+div.row > div {
+  width: 33.3%;
+  float: left;
+}
+
+div.row > div button {
+  margin: auto;
+  background-color: navy;
+  color: white;
+}
+
+div.row > div img {
+  width: 300px;
+  height: 300px;
+}
