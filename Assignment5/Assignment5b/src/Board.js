@@ -1,0 +1,37 @@
+import {Square} from './Square';
+import React from 'react';
+
+export class Board extends React.Component {
+    renderSquare(i) {
+      let winningSquare = this.props.winner && this.props.winner.includes(i) ? true : false;
+      return (
+        <Square
+          value={this.props.squares[i]}
+          onClick={() => this.props.onClick(i)}
+          winningSquare = {winningSquare}
+        />
+      );
+    }
+  
+    render() {
+      return (
+        <div>
+          <div className="board-row">
+            {this.renderSquare(0)}
+            {this.renderSquare(1)}
+            {this.renderSquare(2)}
+          </div>
+          <div className="board-row">
+            {this.renderSquare(3)}
+            {this.renderSquare(4)}
+            {this.renderSquare(5)}
+          </div>
+          <div className="board-row">
+            {this.renderSquare(6)}
+            {this.renderSquare(7)}
+            {this.renderSquare(8)}
+          </div>
+        </div>
+      );
+    }
+  }
